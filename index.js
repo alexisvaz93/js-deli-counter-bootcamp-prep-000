@@ -17,7 +17,7 @@ function nowServing(katzDeliLine){
 var stringOb = [];
 
   if(katzDeliLine.length > 0){
-    stringOb = [`Currently serving ${katzDeliLine[0]}.`];
+    stringOb = [`Currently serving `];
 //    return stringOb;
     stringOb += katzDeliLine.shift();
     return stringOb;
