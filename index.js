@@ -20,7 +20,7 @@ var stringOb = [];
     stringOb = [`Currently serving `];
 //    return stringOb;
     stringOb += katzDeliLine.shift();
-    return stringOb;
+    return (stringOb + ".");
   } else {
       return "There is nobody waiting to be served!";
   }
